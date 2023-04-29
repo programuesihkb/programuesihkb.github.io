@@ -6,7 +6,7 @@
         <img src="images/profile.jpg" width="70px" height="70px" alt="logo"></img>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" >
-            <span class="navbar-toggler-icon" style="color: ;"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -25,11 +25,11 @@
                 Projects
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="python.php">Python</a></li>
+                    <li><a class="dropdown-item" href="python.html">Python</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="web-dev.php">Web Developement</a></li>
+                    <li><a class="dropdown-item" href="web-dev.html">Web Developement</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="cybersecurity.php">Cyber Security</a></li>
+                    <li><a class="dropdown-item" href="cybersecurity.html">Cyber Security</a></li>
                 </ul>
             </li>
         </ul>
