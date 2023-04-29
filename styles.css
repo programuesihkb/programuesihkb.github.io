@@ -1,0 +1,453 @@
+body{
+    margin: 0px;
+    background-color: #1d1b31;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ffdad5;
+    border-radius: 5px;
+  }
+::-webkit-scrollbar-thumb:hover {
+    background-color: #f6bab2;
+  }
+
+
+section{
+    /*
+    background-color: #ffdad5; 
+    */
+    background-color: #1d1b31;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.navbar_sec{
+    position: absolute;
+    background: transparent;
+}
+
+.navbari{
+    margin:auto;
+
+}
+/*
+    FIRST DISP
+*/
+
+.typing-container {
+    padding-top: 5px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.input-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 1.5rem;
+    background-color: #535481;
+    margin-left: 2px;
+}
+@keyframes blink {
+    0% {opacity: 1;}
+    40% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;}
+  }
+.input-cursor { 
+  animation: blink .6s linear infinite alternate;
+}
+
+
+#first-disp{
+    background-image: url('./images/mountains.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    margin: 0 auto;
+    background-position: center center;
+}
+  
+
+.navbar_sec img{
+    border-width: 2px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #535481;
+}
+
+
+.teksti{
+    position: absolute;
+    top: 105px;
+    left: 450px;
+    text-align: center;
+    color: #535481;
+}
+#teksttt{
+    /*
+    position: absolute;
+    top: 105px;
+    left: 560px;
+    */
+    text-align: center;
+    color: #535481;
+}
+
+.teksti h1{
+    /*
+    font-family: 'Clicker Script', cursive;
+    */
+    font-family: 'Poiret One', cursive !important;
+    font-size: 7rem;
+    font-weight: 500;
+    margin: 0px;
+}
+
+#teksttt h3{
+    padding-top: 9rem;
+    font-size: 1.5rem;
+    margin: 0px;
+}
+
+#cloud1{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top:185px;
+    left: 100px;
+}
+#cloud2 {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 130px;
+    left: 950px;
+}
+body{
+    color: #ffdad5;
+}
+/*
+    HI
+*/
+
+
+#hi img{
+    border-width: 2px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #ffdad5;
+}
+#hi h3{
+    font-family: 'Poiret One', cursive !important;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+
+hr{
+    width: 70%;
+    border: 0;
+    height: 1.5px;
+    background-image: linear-gradient(to right, rgba(253, 253, 253, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+
+}
+
+#contactMe{
+    padding-top: 15rem;
+}
+
+
+
+#i-can-help{
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+}
+#i-can-help h2{
+    font-size: 4rem;
+}
+
+#design{
+
+    padding-bottom: 3rem;
+}
+#develop{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+#cyber{
+    background-image:url(images/back2.jpg);
+    opacity: 0.3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:50vh;
+    margin: 0 auto;
+    background-position: center center;
+
+    position: relative;
+}
+#cyber-sec h2{
+    position: absolute;
+    top: 6rem;
+    left: 23rem;
+    font-size: 5rem;
+    text-align: center;
+    color: #ffdad5 !important;
+    opacity: 100% !important;
+    z-index: 999 !important;
+}
+
+#cyber-sec2{
+    font-size: 1.4rem;
+}
+#cyber-sec3{
+    margin-top: -100px;
+    font-size: 1.2rem;
+}
+
+/*
+
+#python{
+    background-image:url(images/python2.jpg);
+    opacity: 0.4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:50vh;
+    margin: 0 auto;
+    background-position: center center;
+
+    position: relative;
+}
+#python-sec h2{
+    position: absolute;
+    top: 6rem;
+    left: 32rem;
+    font-size: 5rem;
+    text-align: center;
+    color: #ffdad5 !important;
+    opacity: 100% !important;
+    z-index: 999 !important;
+}
+*/
+
+/*
+cursive
+*/
+.cursive{
+    font-family: 'Poiret One', cursive !important;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+/*
+Contactme
+*/
+#contactMe{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+  
+#contact-text{
+    font-weight: 600;
+  }
+  
+input, select{
+    padding: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #eee;
+    width: 24rem;
+}
+input{
+    color: #ffdad5;
+}
+    
+.btn-item button {
+    padding: 10px 5px;
+    margin-top: 20px;
+    border-radius: 5px; 
+    border: none;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+}
+.btn-item {
+    display: inline-block;
+    margin: 20px 5px 0;
+}
+  
+.main-block {
+    flex-direction: row;
+    height: calc(100% - 50px);
+    }
+    .left-part, form {
+    flex: 1;
+    height: auto;
+}
+  
+#contact_button{
+      border-radius: 50px;
+  
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ffdad5 !important;
+    opacity: 1 !important; /* Firefox */
+}
+
+
+/*
+footer
+*/
+footer{
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+}
+
+
+footer h5{
+    font-family: 'Poiret One', cursive !important;
+    font-size: 2rem !important;
+    font-weight: 400 !important;
+}
+footer h6{
+    font-family: 'Poiret One', cursive !important;
+    font-weight: 700 !important;
+}
+
+
+/*
+PROJECTS
+*/
+
+.iframes{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ffdad5;
+}
+
+
+
+
+@media only screen and (min-width:1280px){
+    #teksti{
+        position: absolute;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center;
+        color: #535481;
+    }
+}
+  
+@media only screen and (max-width: 800px) {
+    .teksti{
+        position: absolute;
+        top: 150px;
+        left: 250px;
+        text-align: center;
+        color: #535481;
+    }
+    .teksti h1{
+        font-size: 5rem;
+        font-weight: 200;
+        margin: 0px;
+    }
+    
+    #teksttt h3{
+        font-size: 1.2rem;
+        margin: 0px;
+    }
+    
+    #cloud1{
+        display: none;
+    }
+    #cloud2 {
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 516px) {
+    nav{
+        font-size: 0.8rem;
+    }
+    #navbarNavDropdown{
+        background-color: #535481 !important;
+    }
+    #navbarNavDropdown a{
+        color: #ffdad5 !important;
+    }
+
+
+    .teksti{
+        position: absolute;
+        top: 120px;
+        left: 125px;
+        text-align: center;
+        color: #535481;
+    }
+    .teksti h1{
+        font-size: 3rem;
+        font-weight: 200;
+        margin: 0px;
+    }
+    
+    #teksttt h3{
+        font-size: 0.8rem;
+        margin: 0px;
+    }
+    .input-cursor {
+        display: inline-block;
+        width: 1px;
+        height: 0.7rem;
+        background-color: #535481;
+        margin-left: 2px;
+    }
+    .typing-container {
+        margin-top: -3rem;
+        align-items: center !important;
+    }
+    
+    #cloud1{
+        display: none !important;
+        visibility: hidden !important;
+    }
+    #cloud2 {
+        display:none !important;
+        visibility: hidden !important;
+    }
+    #hi p{
+        font-size: 0.8rem;
+        font-weight: 200;
+    }
+    #hi_text p{
+        font-size: 0.7rem;
+    }
+    article img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    #contact-text{
+        font-size: 1.2rem;
+    }
+    #contactMe input{
+        width: 150px;
+    }
+
+    #cyber-sec h2{
+        position: absolute;
+        top: 10rem;
+        left: 4rem;
+        font-size: 2.5rem;
+    
+    }
+}
