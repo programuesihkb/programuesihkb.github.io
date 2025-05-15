@@ -159,11 +159,6 @@ hr{
 
 }
 
-#contactMe{
-    padding-top: 15rem;
-}
-
-
 
 #i-can-help{
     padding-top: 8rem;
@@ -212,30 +207,6 @@ hr{
     font-size: 1.2rem;
 }
 
-/*
-
-#python{
-    background-image:url(images/python2.jpg);
-    opacity: 0.4;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:50vh;
-    margin: 0 auto;
-    background-position: center center;
-
-    position: relative;
-}
-#python-sec h2{
-    position: absolute;
-    top: 6rem;
-    left: 32rem;
-    font-size: 5rem;
-    text-align: center;
-    color: #ffdad5 !important;
-    opacity: 100% !important;
-    z-index: 999 !important;
-}
-*/
 
 /*
 cursive
@@ -268,6 +239,17 @@ input, select{
 }
 input{
     color: #ffdad5;
+}
+
+textarea{
+    padding: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border: none;
+    color: #ffdad5;
+    border-bottom: 1px solid #eee;
+    width: 24rem;
+    height: 6rem;
 }
     
 .btn-item button {

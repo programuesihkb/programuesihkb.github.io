@@ -67,8 +67,41 @@ const carouselList = [
         if(i >= carouselList.length) {i = 0;}
       }
   }
-
-
-  
   
   carousel(carouselList, "#sentence")
+
+
+
+  // Form handling with Formspree
+document.addEventListener('DOMContentLoaded', function() {
+  const form = document.getElementById('homepageform');
+  if (form) {
+    form.addEventListener('submit', function(event) {
+      event.preventDefault();
+      
+      const formData = new FormData(form);
+      const formAction = form.getAttribute('action');
+      
+      fetch(formAction, {
+        method: 'POST',
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      })
+      .then(response => response.json())
+      .then(data => {
+        // Handle success
+        document.getElementById('form-status').innerHTML = 
+          '<div class="alert alert-success mt-3">Thanks for your submission!</div>';
+        form.reset();
+      })
+      .catch(error => {
+        // Handle error
+        document.getElementById('form-status').innerHTML = 
+          '<div class="alert alert-danger mt-3">Oops! There was a problem submitting your form.</div>';
+        console.error(error);
+      });
+    });
+  }
+});
