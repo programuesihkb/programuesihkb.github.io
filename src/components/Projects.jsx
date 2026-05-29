@@ -22,11 +22,11 @@ const projects = [
   },
   {
     emoji: '🎬',
-    title: 'NexeMovieApp',
+    title: 'NextMovieApp',
     subtitle: 'Movie Suggestion App',
     desc: 'A cross-platform movie suggestion app with personalized genre-based recommendations powered by the TMDB API. Features JWT authentication, infinite scroll browsing, advanced filtering, favorites, and is deployable as a native iOS & Android app via Capacitor.',
     stack: ['Ionic 8', 'Angular 19', 'NestJS', 'PostgreSQL', 'TMDB API', 'JWT', 'Capacitor'],
-    github: 'https://github.com/programuesihkb/NexeMovieApp',
+    github: 'https://github.com/programuesihkb/NextMovieApp',
     bg: 'linear-gradient(135deg, #0d1117 0%, #231123 50%, #372554 100%)',
   },
   {

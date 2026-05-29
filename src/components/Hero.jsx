@@ -35,16 +35,40 @@ function useTypewriter(texts, speed = 75, del = 48, pause = 2000) {
   return txt
 }
 
-function ProfileImg() {
-  const [err, setErr] = useState(false)
-  return err ? (
-    <div className="img-initials">EE</div>
-  ) : (
-    <img
-      src="/images/profile.jpg"
-      alt="Elion Emini"
-      onError={() => setErr(true)}
-    />
+function HeroVisual() {
+  return (
+    <div className="hero-deco">
+      <div className="deco-glow" />
+
+      <div className="deco-terminal">
+        <div className="deco-bar">
+          <div className="deco-dots">
+            <span className="dd red" />
+            <span className="dd yellow" />
+            <span className="dd green" />
+          </div>
+          <span className="deco-bar-title">elion@dev: ~</span>
+        </div>
+        <div className="deco-code">
+          <p><span className="kw">const</span> <span className="fn">developer</span> = {'{'}</p>
+          <p className="ind"><span className="prop">name</span>: <span className="str">&quot;Elion Emini&quot;</span>,</p>
+          <p className="ind"><span className="prop">roles</span>: [<span className="str">&quot;dev&quot;</span>, <span className="str">&quot;sec&quot;</span>, <span className="str">&quot;ai&quot;</span>],</p>
+          <p className="ind"><span className="prop">location</span>: <span className="str">&quot;Tirana, AL&quot;</span>,</p>
+          <p className="ind"><span className="prop">available</span>: <span className="bool">true</span>,</p>
+          <p>{'}'}</p>
+          <p className="code-spacer"><span className="cmt">// open to opportunities 🚀</span></p>
+          <p className="deco-prompt-line">
+            <span className="deco-prompt">❯</span>
+            <span className="deco-caret" />
+          </p>
+        </div>
+      </div>
+
+      <span className="deco-badge" style={{ top: '-14px', right: '28px', animationDelay: '0s' }}>React</span>
+      <span className="deco-badge" style={{ bottom: '55px', left: '-28px', animationDelay: '0.9s' }}>NestJS</span>
+      <span className="deco-badge" style={{ bottom: '-12px', right: '44px', animationDelay: '0.45s' }}>Python</span>
+      <span className="deco-badge" style={{ top: '64px', left: '-20px', animationDelay: '1.3s' }}>Flutter</span>
+    </div>
   )
 }
 
@@ -63,8 +87,10 @@ export default function Hero() {
             <span className="hero-type">{typed}<span className="cursor" /></span>
           </p>
           <p className="hero-bio">
-            IT professional based in Tirana, Albania — passionate about building elegant
-            web applications, securing digital infrastructure, and exploring AI-driven solutions.
+            I am an enthusiastic and diligent IT professional, driven by a passion for continuous learning and self-improvement. 
+            With a background in programming, design, networking and cybersecurity, I excel at problem-solving and delivering innovative solutions. 
+            In addition to my technical expertise, I am a creative individual who enjoys photography, good music and traveling. I value work-life balance, 
+            spending my free time with family, enjoying nature, and building meaningful connections with friends.
           </p>
           <div className="hero-ctas">
             <a href="#projects" className="btn-primary">
@@ -85,9 +111,7 @@ export default function Hero() {
         </div>
 
         <div className="hero-visual">
-          <div className="img-ring">
-            <ProfileImg />
-          </div>
+          <HeroVisual />
         </div>
       </div>
 

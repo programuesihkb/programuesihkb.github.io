@@ -3,7 +3,9 @@
     "allow": [
       "Bash(npm list *)",
       "Bash(npm root *)",
-      "Bash(ls \"$\\(npm root -g\\)/playwright\")"
+      "Bash(ls \"$\\(npm root -g\\)/playwright\")",
+      "Bash(git pull *)",
+      "Bash(git push *)"
     ]
   }
 }
