@@ -87,10 +87,9 @@ export default function Hero() {
             <span className="hero-type">{typed}<span className="cursor" /></span>
           </p>
           <p className="hero-bio">
-            I am an enthusiastic and diligent IT professional, driven by a passion for continuous learning and self-improvement. 
-            With a background in programming, design, networking and cybersecurity, I excel at problem-solving and delivering innovative solutions. 
-            In addition to my technical expertise, I am a creative individual who enjoys photography, good music and traveling. I value work-life balance, 
-            spending my free time with family, enjoying nature, and building meaningful connections with friends.
+            IT professional with a background in programming, design, networking, and cybersecurity. 
+            Passionate about problem-solving and building innovative solutions.
+            Making the world a better place, one line of code at a time.
           </p>
           <div className="hero-ctas">
             <a href="#projects" className="btn-primary">
