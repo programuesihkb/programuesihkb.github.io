@@ -50,8 +50,8 @@ async function deleteSentence(eleRef) {
 
 
 const carouselList = [
-    {text: "web developer"},
     {text: "full-stack developer"},
+    {text: "cybersecurity specialist"},
     {text: "graphic designer"}
     ]
   
