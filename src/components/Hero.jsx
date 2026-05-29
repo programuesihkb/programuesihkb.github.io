@@ -52,8 +52,7 @@ function HeroVisual() {
         <div className="deco-code">
           <p><span className="kw">const</span> <span className="fn">developer</span> = {'{'}</p>
           <p className="ind"><span className="prop">name</span>: <span className="str">&quot;Elion Emini&quot;</span>,</p>
-          <p className="ind"><span className="prop">roles</span>: [<span className="str">&quot;dev&quot;</span>, <span className="str">&quot;sec&quot;</span>, <span className="str">&quot;ai&quot;</span>],</p>
-          <p className="ind"><span className="prop">location</span>: <span className="str">&quot;Tirana, AL&quot;</span>,</p>
+          <p className="ind"><span className="prop">roles</span>: [<span className="str">&quot;developing&quot;</span>, <span className="str">&quot;security&quot;</span>, <span className="str">&quot;ai&quot;</span>],</p>
           <p className="ind"><span className="prop">available</span>: <span className="bool">true</span>,</p>
           <p>{'}'}</p>
           <p className="code-spacer"><span className="cmt">// open to opportunities 🚀</span></p>
